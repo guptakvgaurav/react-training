@@ -25,9 +25,6 @@ module.exports = {
             }
         ]
     },
-    plugins: [
-        new webpack.optimize.UglifyJsPlugin()
-    ],
     devServer: {
         contentBase: './src',
         port: 9000,
