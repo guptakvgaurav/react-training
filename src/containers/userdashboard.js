@@ -30,18 +30,6 @@ class _UserDashboard extends React.Component{
         this.props.dispatch(addComment(formData))
     }
 
-    // getComments(users) {
-    //     if(!Array.isArray(users) || users.length < 1){
-    //         return [];
-    //     }
-    //     const comments = users.reduce((accumulatedComments, user) => {
-    //         return accumulatedComments.concat(user.comments.map(comment => {
-    //             return { text: comment.text, email: user.email };
-    //         }))
-    //     }, []);
-    //     return comments;
-    // }
-
     getComments(users) {
         if(!Array.isArray(users) || users.length < 1){
             return [];
